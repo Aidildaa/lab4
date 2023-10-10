@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Regis.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+  <div class="container1">
+    <h1>Registration</h1>
+    <form name="signup" action="index.html" method="post">
+
+        <label>Введите логин:</label>
+        <input type="text"  name="username">
+
+        <label>Введите E-mail:</label>
+        <input type="email" name="email">
+
+        <label>Введите пароль:</label>
+        <input type="password" name="password">
+
+        <label>Выберите дату вашего рождения:</label>ы
+        <input type="date" name="happybirthday">
+
+      <div class="lab">
+        <label>Укажите пол:</label>
+        <input type="radio" name="sex" value="0">Мужской
+        <input type="radio" name="sex" value="1">Женский
+      </div>
+      <div class="lab">
+        <label>Я ознокомлен с правилами</label>
+        <input type="checkbox" name="rules">
+      </div>
+
+        <label>Номер телефона:</label>
+        <input type="tel">
+
+      <a href="index.html"><button type="button" onclick="redirectToPage">Отправить</button></a>
+  </div>
+</main>
+</body>
+</html>
+
